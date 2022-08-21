@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+body{
+    height: 200vh;
+}
+
+
+.container{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-top: 5em;
+}
+
+.header{
+    font-weight: 600;
+}
+
+.exp{
+    color: gray;
+    font-size: 0.9em;
+    letter-spacing: 0.1px;
+    margin-top: 1em;
+}
+
+.active{
+    margin-top: 0.3em;
+    font-style: italic;
+}
+/* search  */
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    margin: 1rem 0;
+}
+
+.search-text{
+    border: 1px solid tomato;
+    color: salmon;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem ;
+    padding: 1rem;
+    border-right: none;
+    width: 92.5%;
+    font-size: 1.1rem;
+}
+
+.button{
+    background-color: tomato;
+    border: 1px solid tomato;
+    border-left: none;
+  
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem ;
+    color: white;
+    width: 7.5%;
+    font-size: 1.5rem;
+}
+
+
+.result{
+    font-size: 2em;
+    font-weight: 600;
+    margin-top: 1em;
+}
+
+/* top ended */
+/* 
+.items{
+     margin: 4rem  0; 
+    
+    
+} */
+
+.meal-item{
+    box-shadow: 6px -3px 11px 0px rgba(0,0,0,0.75);
+    overflow: hidden;
+    margin: 3rem ;
+    padding-bottom: 2rem;
+    border-radius: 1rem;
+}
+
+.meal-item img{
+    width: 100%;
+    
+}
+
+.meal-item h3{
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 1rem 0.5rem;
+}
+
+.meal-item a{
+    text-decoration: none;
+    background-color: tomato;
+    border: 1px solid tomato;
+    
+  
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    
+    position: relative;
+    color: white;
+    font-weight: 500;
+
+    margin: 1rem;
+    
+}
+
+
+@media screen and (min-width: 600px) {
+    #items {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 2rem;
+  }
+}
+
+/*
+
+@media screen and(min-width:601px){
+
+    body{
+        background-color: rebeccapurple;
+    };
+
+    
+ };
+
+
+@media screen and (max-width: 600px) {
+   
+
+    .container{
+        width: 100%;
+    }
+    
+    .main{
+        width: 90%;
+        margin: auto;
+    }
+
+    .button{
+ 
+        min-width: 40px;
+        
+    }
+  } */
